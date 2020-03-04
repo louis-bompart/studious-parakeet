@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "ES6",
+        "target": "ES5",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "preserveSymlinks": true,
+        "allowSyntheticDefaultImports": true,
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
