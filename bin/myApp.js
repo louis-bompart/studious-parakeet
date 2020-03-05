@@ -101,7 +101,9 @@ __webpack_require__.r(__webpack_exports__);
 var _myJsonFile_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(0, 1);
 
  // Not allowed by TypeScript without allowSyntheticDefaultImports.
+var myRequiredFile = __webpack_require__(0);
 var myFile = _myJsonFile_json__WEBPACK_IMPORTED_MODULE_0___namespace;
+console.log(myRequiredFile.Foo); // Undefined
 console.log(myFile.Foo); // Undefined
 console.log(_myJsonFile_json__WEBPACK_IMPORTED_MODULE_0__["Foo"]); // Bar.
 console.log(_myJsonFile_json__WEBPACK_IMPORTED_MODULE_0__.Foo); // Bar.
