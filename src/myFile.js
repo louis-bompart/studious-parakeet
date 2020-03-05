@@ -1,5 +1,5 @@
 import * as jsonFile from './myJsonFile.json'
-import syntheticJsonfile from './myJsonFile.json' // Not allowed by TypeScript without allowSyntheticDefaultImports.
+import syntheticJsonfile from './myJsonFile.json'
 
 var myFile = jsonFile;
 
